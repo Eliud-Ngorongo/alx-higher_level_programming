@@ -1,26 +1,8 @@
 #!/usr/bin/python3
+names  = ['mugo', 'nyutu','njuguna', 'eliud']
+dicto = {24:'Geroge', 33: "Ngugi", 90 : 'Cecelia'}
 
-# dicto = { 'language': "C", 'number': 89, 'track': "Low level" }
+for elm in dicto:
+    print(dicto[elm],elm)
 
-# dicto[key] = value
-
-# print(dicto)
-
-def update_dictionary(a_dictionary, key, value):
-    a_dictionary[key] = value
-    return a_dictionary
-
-
-dicto = { 'language': "C", 'number': 89, 'track': "Low level","class":2 }
-
-
-
-def simple_delete(a_dictionary, key=""):
-    if key not in a_dictionary:
-        return a_dictionary 
-    else:
-        a_dictionary.pop(key)
-        return a_dictionary
-
-print(simple_delete(dicto, "same"))
-
+s= {}
