@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""This module introduces property decorators based on previous modules in this repo"""
+"""This module introduces property decorators
+   based on previous modules in this repo"""
 
 
 class Square:
