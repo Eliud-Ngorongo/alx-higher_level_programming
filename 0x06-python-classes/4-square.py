@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """This module introduces property decorators based on previous modules in this repo"""
 
 
