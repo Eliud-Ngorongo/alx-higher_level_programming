@@ -1,9 +1,9 @@
 #!/usr/bin/node
 
+let numbers = 0;
 const number = process.argv.slice(2);
-if (process.argv.length === 2 || process.argv.length === 3) {
-  console.log(0);
-} else {
+if (number.length > 1) {
   number.sort();
-  console.log(number[number.length - 2]);
+  numbers = number[number.length - 2];
 }
+console.log(numbers);
